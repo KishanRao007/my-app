@@ -1,7 +1,7 @@
 version: 0.2
 env:
   variables:
-    REPOSITORY_URI: "<ECR_URI>" # replace later in AWS Console
+    REPOSITORY_URI: "004415581358.dkr.ecr.us-east-1.amazonaws.com/my-app" # replace later in AWS Console
 phases:
   pre_build:
     commands:
